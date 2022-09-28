@@ -18,7 +18,7 @@ void dad(int pip,int i){
 	//printf("Fine \n");
 
 	if((rab=read(pip,buf,sizeof(buf)))>0){
-		printf("Il padre ha letto %d caratteri e ecco la schifezza ->%s\n",rab,buf);   								//aggiungiamo i byte letti a quelli totali
+		printf("Il padre ha letto %d caratteri e ecco il risultato ->%s\n",rab,buf);   								//aggiungiamo i byte letti a quelli totali
 	}
 
 	if(rab<0)
@@ -37,7 +37,7 @@ void worker(int pid[],int pipes[][2],int i){
 	if((rab=read(pipes[i][read_pipe],buf,sizeof(buf)))>0){
 		if(rab<0)
 			err_sys("Errore lettura\n");
-		printf("Il figlio %d ha letto %d caratteri e ecco la schifezza ->%s\n",i+1,rab,buf);   								//aggiungiamo i byte letti a quelli totali
+		printf("Il figlio %d ha letto %d caratteri e ecco il risultato ->%s\n",i+1,rab,buf);   								//aggiungiamo i byte letti a quelli totali
 		close(pipes[i][read_pipe]);
 		char mom[10];
 		sprintf(mom,"%d \0",getpid());
