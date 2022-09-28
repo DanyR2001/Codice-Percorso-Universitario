@@ -55,11 +55,11 @@ public class GUFO {
                 listaMarche.add("ferraioli");
                 listaMarche.add("Ciao");
                 listaMarche.add("lamborghini");
-                TecnicoCaldaia t0 = new TecnicoCaldaia("T000", "Pisello", "Tosto", listaMarche);
-                TecnicoCaldaia t1 = new TecnicoCaldaia("T001", "Dio", "Maiale", listaMarche);
-                TecnicoCaldaia t2 = new TecnicoCaldaia("T002", "Madonna", "Troia", listaMarche);
-                TecnicoCaldaia t3 = new TecnicoCaldaia("T003", "Cristo", "Stronzo", listaMarche);
-                TecnicoCaldaia t4 = new TecnicoCaldaia("T004", "Garibaldi", "Bastardo", listaMarche);
+                TecnicoCaldaia t0 = new TecnicoCaldaia("T000", "Marc", "Tortoriello", listaMarche);
+                TecnicoCaldaia t1 = new TecnicoCaldaia("T001", "Alessandro", "Rossi", listaMarche);
+                TecnicoCaldaia t2 = new TecnicoCaldaia("T002", "Mattia", "Cappato", listaMarche);
+                TecnicoCaldaia t3 = new TecnicoCaldaia("T003", "Mario", "Gallo", listaMarche);
+                TecnicoCaldaia t4 = new TecnicoCaldaia("T004", "Garibaldi", "Verdi", listaMarche);
                 p = new PortaleIdraulici();
                 p.add(i0);
                 p.add(i1);
