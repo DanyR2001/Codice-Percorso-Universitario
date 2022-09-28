@@ -12,7 +12,7 @@ public class Starter {
 			String x=in.nextLine();
 			ob=new FileManager(x);
 		}while(ob.exists());
-		System.out.print("inserisci il duce;");
+		System.out.print("inserisci:");
 		ElencoArticoli z = null;
 		try {
 			z=new ElencoArticoli(ob.ReadFile());
