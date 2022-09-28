@@ -7,7 +7,6 @@ int prefisso(char *,char *, int);
 void aggiorna(char *,char *, char *[],int *, int *);
 void stampa(char *[ ], int) ;
 
-//Questo programma rientra nella top 3 tracce indecifrabili del prof
 
 int main(void)
 {
