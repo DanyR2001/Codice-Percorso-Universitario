@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.2 (UNKNOWN-17d59c9; 2018-09-26T15:16:30-0700) JAXWS-RI/2.3.1 JAXWS-API/2.3.1 JAXB-RI/2.3.1 JAXB-API/2.3.1 svn-revision#unknown. --><xs:schema xmlns:tns="http://StandardPackage/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://StandardPackage/">
+
+<xs:element name="SelectByCap" type="tns:SelectByCap"/>
+
+<xs:element name="SelectByCapPrice" type="tns:SelectByCapPrice"/>
+
+<xs:element name="SelectByCapPriceResponse" type="tns:SelectByCapPriceResponse"/>
+
+<xs:element name="SelectByCapResponse" type="tns:SelectByCapResponse"/>
+
+<xs:element name="SelectById" type="tns:SelectById"/>
+
+<xs:element name="SelectByIdResponse" type="tns:SelectByIdResponse"/>
+
+<xs:element name="SelectByInfPrice" type="tns:SelectByInfPrice"/>
+
+<xs:element name="SelectByInfPriceResponse" type="tns:SelectByInfPriceResponse"/>
+
+<xs:element name="SelectByState" type="tns:SelectByState"/>
+
+<xs:element name="SelectByStateResponse" type="tns:SelectByStateResponse"/>
+
+<xs:element name="SelectByType" type="tns:SelectByType"/>
+
+<xs:element name="SelectByTypeResponse" type="tns:SelectByTypeResponse"/>
+
+<xs:element name="add" type="tns:add"/>
+
+<xs:element name="addResponse" type="tns:addResponse"/>
+
+<xs:element name="casa" type="tns:casa"/>
+
+<xs:element name="remove" type="tns:remove"/>
+
+<xs:element name="removeResponse" type="tns:removeResponse"/>
+
+<xs:element name="update" type="tns:update"/>
+
+<xs:element name="updateResponse" type="tns:updateResponse"/>
+
+<xs:complexType name="remove">
+<xs:sequence>
+<xs:element name="arg0" type="tns:casa" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="casa">
+<xs:sequence>
+<xs:element name="CAP" type="xs:string" minOccurs="0"/>
+<xs:element name="id" type="xs:int"/>
+<xs:element name="indirizzo" type="xs:string" minOccurs="0"/>
+<xs:element name="prezzo" type="xs:float"/>
+<xs:element name="stato" type="xs:string" minOccurs="0"/>
+<xs:element name="tipo" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="removeResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="SelectByState">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SelectByStateResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:casa" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SelectByType">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SelectByTypeResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:casa" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SelectByCapPrice">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+<xs:element name="arg1" type="xs:float"/>
+<xs:element name="arg2" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SelectByCapPriceResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:casa" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="update">
+<xs:sequence>
+<xs:element name="arg0" type="tns:casa" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:casa" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SelectById">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SelectByIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:casa" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SelectByCap">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SelectByCapResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:casa" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SelectByInfPrice">
+<xs:sequence>
+<xs:element name="arg0" type="xs:float"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SelectByInfPriceResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:casa" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="add">
+<xs:sequence>
+<xs:element name="arg0" type="tns:casa" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addResponse">
+<xs:sequence/>
+</xs:complexType>
+</xs:schema>

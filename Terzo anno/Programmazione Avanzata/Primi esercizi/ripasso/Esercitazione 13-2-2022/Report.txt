@@ -1,0 +1,420 @@
+
+giorno 2022-12-13 16:28:28.947344: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:28:28.947363: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:28:28.947371: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:28:28.947384: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:28:28.947394: vendita del prodotto Paperini
+
+giorno 2022-12-13 16:28:28.947400: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-13 16:28:28.947409: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:28:28.947418: vendita del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:28:28.947425: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:28:28.947434: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:28:28.947442: vendita del prodotto Nuterra
+
+giorno 2022-12-13 16:28:28.947448: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-13 16:28:28.947457: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:28:28.947465: vendita del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:47:07.312805: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:47:07.312840: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:47:07.312848: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:47:07.312863: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:47:07.312873: vendita del prodotto Paperini
+
+giorno 2022-12-13 16:47:07.312879: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-13 16:47:07.312888: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:47:07.312897: vendita del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:47:07.312904: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:47:07.312912: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:47:07.312921: vendita del prodotto Nuterra
+
+giorno 2022-12-13 16:47:07.312927: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-13 16:47:07.312935: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:47:07.312944: vendita del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:59:00.416562: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:59:00.416596: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:59:00.416606: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:59:00.416621: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:59:00.416632: vendita del prodotto Paperini
+
+giorno 2022-12-13 16:59:00.416638: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-13 16:59:00.416647: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:59:00.416656: vendita del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:59:00.416663: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:59:00.416672: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:59:00.416680: vendita del prodotto Nuterra
+
+giorno 2022-12-13 16:59:00.416686: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-13 16:59:00.416695: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:59:00.416703: vendita del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:59:49.418574: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:59:49.418603: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:59:49.418611: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:59:49.418626: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:59:49.418636: vendita del prodotto Paperini
+
+giorno 2022-12-13 16:59:49.418642: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-13 16:59:49.418651: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:59:49.418660: vendita del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 16:59:49.418667: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:59:49.418676: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:59:49.418685: vendita del prodotto Nuterra
+
+giorno 2022-12-13 16:59:49.418690: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-13 16:59:49.418699: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 16:59:49.418707: vendita del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 17:01:42.948433: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 17:01:42.948467: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 17:01:42.948475: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 17:01:42.948491: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 17:01:42.948500: vendita del prodotto Paperini
+
+giorno 2022-12-13 17:01:42.948506: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-13 17:01:42.948515: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 17:01:42.948524: vendita del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 17:01:42.948532: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 17:01:42.948540: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 17:01:42.948549: vendita del prodotto Nuterra
+
+giorno 2022-12-13 17:01:42.948554: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-13 17:01:42.948563: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 17:01:42.948572: vendita del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 17:02:33.913566: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 17:02:33.913596: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 17:02:33.913608: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 17:02:33.913624: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 17:02:33.913634: vendita del prodotto Paperini
+
+giorno 2022-12-13 17:02:33.913639: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-13 17:02:33.913648: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 17:02:33.913657: vendita del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-13 17:02:33.913664: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 17:02:33.913673: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 17:02:33.913682: vendita del prodotto Nuterra
+
+giorno 2022-12-13 17:02:33.913687: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-13 17:02:33.913696: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-13 17:02:33.913704: vendita del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-15 10:56:17.825277: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-15 10:56:17.825312: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-15 10:56:17.825323: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-15 10:56:17.825341: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-15 10:56:17.825351: vendita del prodotto Paperini
+
+giorno 2022-12-15 10:56:17.825357: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-15 10:56:17.825369: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-15 10:56:17.825380: vendita del prodotto Paperini
+
+giorno 2022-12-15 10:56:17.825387: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-15 10:56:17.825398: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-15 10:56:17.825407: vendita del prodotto Nuterra
+
+giorno 2022-12-15 10:56:17.825412: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-15 10:56:17.825424: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-15 10:56:17.825434: vendita del prodotto Nuterra
+
+giorno 2022-12-15 11:22:38.564891: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-15 11:22:38.564923: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-15 11:22:38.564931: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-15 11:22:38.564947: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-15 11:22:38.564954: vendita del prodotto Paperini
+
+giorno 2022-12-15 11:22:38.564959: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-15 11:22:38.564969: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-15 11:22:38.564977: vendita del prodotto Paperini
+
+giorno 2022-12-15 11:22:38.564982: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-15 11:22:38.564991: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-15 11:22:38.564997: vendita del prodotto Nuterra
+
+giorno 2022-12-15 11:22:38.565001: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-15 11:22:38.565011: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-15 11:22:38.565019: vendita del prodotto Nuterra
+
+giorno 2022-12-15 12:01:02.804613: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-15 12:01:02.804637: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-15 12:01:02.804646: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-15 12:01:02.804661: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-15 12:01:02.804669: vendita del prodotto Paperini
+
+giorno 2022-12-15 12:01:02.804674: immagazzinamento di una nuova quantita` del prodotto Paperini
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-15 12:01:02.804684: vendita del prodotto Paperini
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Paperini
+
+giorno 2022-12-15 12:01:02.804693: vendita del prodotto Paperini
+
+giorno 2022-12-15 12:01:02.804698: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-15 12:01:02.804707: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-15 12:01:02.804713: vendita del prodotto Nuterra
+
+giorno 2022-12-15 12:01:02.804718: immagazzinamento di una nuova quantita` del prodotto Nuterra
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+
+giorno 2022-12-15 12:01:02.804728: vendita del prodotto Nuterra
+La vendita e` effettuata ad un nuovo acquirente
+c'e` stato un cambio stato delle scorte del prodotto: il nuovo stato e` Nuterra
+
+giorno 2022-12-15 12:01:02.804736: vendita del prodotto Nuterra

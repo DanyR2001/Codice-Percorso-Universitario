@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.2 (UNKNOWN-17d59c9; 2018-09-26T15:16:30-0700) JAXWS-RI/2.3.1 JAXWS-API/2.3.1 JAXB-RI/2.3.1 JAXB-API/2.3.1 svn-revision#unknown. --><xs:schema xmlns:tns="http://StandardPackage/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://StandardPackage/">
+
+<xs:element name="addRicambio" type="tns:addRicambio"/>
+
+<xs:element name="addRicambioResponse" type="tns:addRicambioResponse"/>
+
+<xs:element name="removeRicambio" type="tns:removeRicambio"/>
+
+<xs:element name="removeRicambioResponse" type="tns:removeRicambioResponse"/>
+
+<xs:element name="selectAll" type="tns:selectAll"/>
+
+<xs:element name="selectAllResponse" type="tns:selectAllResponse"/>
+
+<xs:element name="selectByCategory" type="tns:selectByCategory"/>
+
+<xs:element name="selectByCategoryResponse" type="tns:selectByCategoryResponse"/>
+
+<xs:element name="selectById" type="tns:selectById"/>
+
+<xs:element name="selectByIdResponse" type="tns:selectByIdResponse"/>
+
+<xs:element name="updateRicambio" type="tns:updateRicambio"/>
+
+<xs:element name="updateRicambioResponse" type="tns:updateRicambioResponse"/>
+
+<xs:complexType name="selectById">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="selectByIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:ricambioAuto" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ricambioAuto">
+<xs:sequence>
+<xs:element name="categoria" type="xs:string" minOccurs="0"/>
+<xs:element name="disponibilita" type="xs:int"/>
+<xs:element name="id" type="xs:int" minOccurs="0"/>
+<xs:element name="nome" type="xs:string" minOccurs="0"/>
+<xs:element name="prezzo" type="xs:double"/>
+<xs:element name="venduti" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addRicambio">
+<xs:sequence>
+<xs:element name="arg0" type="tns:ricambioAuto" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addRicambioResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="selectAll">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="selectAllResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:ricambioAuto" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateRicambio">
+<xs:sequence>
+<xs:element name="arg0" type="tns:ricambioAuto" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateRicambioResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:ricambioAuto" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="selectByCategory">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="selectByCategoryResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:ricambioAuto" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="removeRicambio">
+<xs:sequence>
+<xs:element name="arg0" type="tns:ricambioAuto" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="removeRicambioResponse">
+<xs:sequence/>
+</xs:complexType>
+</xs:schema>
