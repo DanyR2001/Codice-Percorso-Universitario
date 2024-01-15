@@ -1,3 +1,0 @@
-Daniele,Russo,1234567890
-Francesco,Russo,1234567890
-Marco,Cuoco,1234567890
