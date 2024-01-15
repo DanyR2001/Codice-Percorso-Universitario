@@ -1,0 +1,90 @@
+-- 1. Selezionare gli artisti che hanno realizzato più di 5 dischi e che appartengono all'etichetta discografica "Zerolandia" (nome, cognome, #dischi).
+select nome, cognome, numDischi
+from Artisti
+where numDischi > 5 and etichetta = "Zerolandia";
+
+
+
+-- 2. Selezionare tutti i dischi inediti di Michael Jackson (titolo vinile).
+select V.titolo
+from Vinili V join Autori AU on V.id = AU.idVinile join Artisti AR on AU.matricolaArtista = AR.matricola
+where V.inedito = true and AR.nome = "Michael" and AR.cognome = "Jackson";
+
+
+
+-- 3. Selezionare il numero di vinili complessivamente venduti da tutti i negozi.
+select sum(quantita) as totViniliVenduti
+from Vendite;
+
+
+
+
+-- 4. Selezionare il numero di vinili venduti da ogni negozio (pIva, ragione sociale, #vinili).
+select N.pIva, N.ragSoc, R.numVinili
+from 	Negozi N join	(select pIva, sum(quantita) as numVinili
+				from Vendite
+				group by pIva) R
+	on N.pIva = R.pIva;
+
+
+
+
+-- 5. Selezionare i negozi che hanno acquistato più di 100 vinili usati (pIva, ragione sociale).
+select pIva, ragSoc
+from Negozi
+where pIva in	(select pIva
+			from Acquisti
+			where usato = true
+			group by pIva
+			having sum(quantita) > 100);
+
+
+
+
+-- 6. Selezionare il negozio che ha acquistato il maggior numero di vinili (pIva, ragione sociale, #vinili).
+create view AcquistiVinili (pIva, numVinili) as (
+	select pIva, sum(quantita)
+	from Acquisti
+	group by pIva
+);
+
+select N.pIva, N.ragSoc, AV.numVinili
+from AcquistiVinili AV join Negozi N on AV.pIva = N.pIva
+where AV.numVinili = 	(select max(numVinili)
+				from AV);
+
+
+
+
+
+-- 7. Selezionare i negozi che non hanno mai venduto un disco di Michael Jackson (pIva, ragione sociale).
+select pIva, ragSoc
+from Negozi
+where pIva not in	(select V.pIva
+			from Artisti AR join Autori AU on AR.matricola = AU.matricolaArtista join Vendite V on AU.idVinile = V.idVinile
+			where AR.nome = "Michael" and AR.cognome = "Jackson");
+
+
+
+
+-- 8. Selezionare i negozi che hanno venduto tutti i vinili del catalogo (pIva, ragione sociale).
+select N.pIva, N.ragSoc
+from Negozi N
+where not exists	(select *
+			from Vinili V
+			where not exists	(select *
+						from Vendite VD
+						where VD.pIva = N.pIva
+						and VD.idVinile = V.id));
+
+
+
+
+
+
+
+
+
+
+
+

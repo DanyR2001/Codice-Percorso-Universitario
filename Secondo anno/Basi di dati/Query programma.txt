@@ -1,0 +1,124 @@
+QUERY 1
+select pIva,ragSoc as RagioneSociale,toponimo,civico,comune,cap,provincia 
+from Negozi;
+
+
+
+
+QUERY 2
+select vin.id,vin.titolo,vin.prezzo_Listino 
+from Vinili vin 
+where vin.id in 	(select x.id_Vinile 
+			from 	(select id_vinile, sum(quantita) as tot 
+				from Acquisti 
+				where p_Iva="+p_iva+" 
+				group by id_Vinile) x 	left join 		(select v.id_Vinile,sum(v.quantita) as act 
+											from Vendite v 
+											where p_Iva="+p_iva+" 
+											group by v.id_Vinile) y 
+			on y.id_Vinile=x.id_Vinile 
+			where x.tot>y.act or y.act is null);
+
+
+
+
+
+
+QUERY 3
+select sum(quantita) 
+from Vendite 
+where p_Iva="+Negozi[comboBox.getSelectedIndex()][0]+" and id_vinile="+table.getValueAt(table.getSelectedRow(), 0)+";
+
+
+
+
+
+
+QUERY 4
+select sum(quantita) 
+from Acquisti 
+where p_Iva="+Negozi[comboBox.getSelectedIndex()][0]+" and id_vinile="+table.getValueAt(table.getSelectedRow(), 0)+";
+
+
+
+
+
+
+QUERY 5
+Insert into Vendite (p_Iva,id_Vinile,prezzoUnita,quantita,sconto,usato) 
+values  ("+Negozi[comboBox.getSelectedIndex()][0]+","+table.getValueAt(table.getSelectedRow(), 0)+","+prezzo+","+numAc+","+perSconto+","+stat+");
+
+
+
+
+
+QUERY 6
+select v.titolo, ar.nome, ar.cognome, ar.etichetta, v.durata, v.prezzo_Listino,v.tipo,v.inedito 
+from Vinili v, Autori au , Artisti ar 
+where v.id=au.idVinile and au.matricolaArtista=ar.matricola and v.id="+table.getValueAt(table.getSelectedRow(), 0);
+
+
+
+
+
+QUERY 7
+select v.titolo, ar.nome, ar.cognome, ar.etichetta, v.durata, v.prezzo_Listino,v.tipo 
+from Vinili v, Autori au , Artisti ar 
+where v.id=au.idVinile and au.matricolaArtista=ar.matricola and v.id="+table.getValueAt(table.getSelectedRow(), 0);
+
+
+
+
+QUERY 8
+select t.NomeCanzone 
+from Tracce t 
+where t.idVinile="+table.getValueAt(table.getSelectedRow(), 0);
+
+
+
+
+
+
+QUERY 9
+Select * 
+from Vinili v 
+where v.titolo=\""+NameVin+"\" 
+
+
+
+
+
+
+
+
+QUERY 10
+Select vin.id 
+from Vinili vin 
+where vin.id=\""+idVinile+"\" and vin.id in 	(select x.id_Vinile 
+								from 	(select id_vinile, sum(quantita) as tot 
+									from Acquisti 
+									where p_Iva=\""+Negozi[i+1][0]+"\" 
+									group by id_Vinile) 	x left join 		(select v.id_Vinile,sum(v.quantita) as act 
+																	from Vendite v 
+																	where p_Iva=\""+Negozi[i+1][0]+"\" 
+																	group by v.id_Vinile) y 
+								on y.id_Vinile=x.id_Vinile 
+								where x.tot>y.act or y.act is null);
+
+
+
+
+
+QUERY 11
+select vin.id,vin.titolo,vin.prezzo_Listino 
+from Vinili vin;
+
+
+
+
+
+
+QUERY 12
+Insert into Acquisti (p_Iva,id_Vinile,prezzoUnita,quantita,sconto,usato) 
+values ("+Negozi[chose][0]+","+table.getValueAt(table.getSelectedRow(), 0)+","+prezzo+","+quantita+","+perSconto+","+stat+");
+
